@@ -2,9 +2,146 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 .work-sans-font{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+/* Shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+.dark-1{
+    color: rgba(19, 19, 19, 1);
+}
+
+.dark-2{
+    color: rgba(66, 66, 66, 1);
+}
+
+.dark-3{
+    color: rgba(114, 114, 114, 1);
+}
+
+.bg-primary{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary{
+        background-color: rgba(255, 144, 14, 1);
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding: 21px 25px;
+        color: white;
+        border-radius: 8px;
+        border: none;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+
+/* nav style */
+
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-list{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.nav-bar , .banner{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.logo{
+    font-size: 2.8rem;
+    font-weight: 700px;
+}
+
+/* banner part style */
+
+.banner-content{
+    max-width: 868px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold; 
+    margin-bottom: 25px;
+}
+
+.banner-details{
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+/* nav responsive section */
+
+@media screen and (max-width: 575px) {
+    .nav-bar, .nav-lists{
+        flex-direction: column;
+    } 
+}
+
+
+/* Our feature style */
+.our-feature{
+    align-items: center;
+}
+
+.our-feature-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-feature-text{
+    max-width: 537px;
+    margin-left: 73px;
+}
+
+.our-feature-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.text-1{
+    font-weight: 500;
+}
+
+#orange{
+    color: rgba(255, 144, 14, 1);
+}
+
+.our-feature-details{
+    font-size: 16px;
+    margin-bottom: 32px;
+}
