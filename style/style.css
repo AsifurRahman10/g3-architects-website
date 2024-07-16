@@ -289,6 +289,97 @@ main>section {
         justify-self: center;
     }
 
-    
+}
 
+/* experience section style */
+
+.experience{
+    gap: 146px;
+}
+
+#title-border{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
+}
+
+.experience-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.experience-card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.experience-card-details{
+    font-size: 1rem;
+}
+
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#experience-name{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#experience-btn{
+    margin-top: -120px;
+    margin-left: -85px;
+    padding: 45px 42px;
+}
+
+.experience-img img{
+    width: 100%;
+}
+
+.experience-details{
+    max-width: 586px;
+}
+
+/* experience responsive phone */
+
+@media screen and (max-width: 576px) {
+    .experience{
+        flex-direction: column;
+        gap: 50px;
+    }
+    #experience-btn{
+        margin-top: 20px;
+        margin-left: 35px;
+    } 
+}
+
+/* experience responsive tab */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .experience{
+        flex-direction: column;
+        gap: 50px;
+    }
+    #experience-btn{
+        margin-top: 40px;
+        margin-left: 32%;
+    }
+}
+
+/* footer style */
+
+.footer{
+    max-width: 1440px;
+    margin: 130px auto 50px auto;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+}
+
+.footer-text{
+    font-size: 1.25rem;
 }
